@@ -1,0 +1,7 @@
+{
+  "bus_number": "Bus 3",
+  "total_seats": 40,
+  "seats_filled": 15,
+  "stops": ["Kavaraipettai","StopB","StopC"],
+  "priority": 3
+}
