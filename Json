@@ -5,3 +5,10 @@
   "stops": ["Kavaraipettai","StopB","StopC"],
   "priority": 1
 }
+{
+  "bus_number": "Bus 2",
+  "total_seats": 40,
+  "seats_filled": 30,
+  "stops": ["Kavaraipettai","StopB","StopC"],
+  "priority": 2
+}
