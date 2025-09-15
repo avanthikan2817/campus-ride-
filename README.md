@@ -151,3 +151,5 @@ def update_seats(request: Request):
         return jsonify({"error": str(ve)}), 400
     except Exception as e:
         return jsonify({"error": "Server error", "detail": str(e)}), 500 
+    firebase-admin>=6.0.0
+Flask>=2.0.0
