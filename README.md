@@ -153,3 +153,10 @@ def update_seats(request: Request):
         return jsonify({"error": "Server error", "detail": str(e)}), 500 
     firebase-admin>=6.0.0
 Flask>=2.0.0
+{
+  "bus_number": "Bus 1",
+  "total_seats": 40,
+  "seats_filled": 40,
+  "stops": ["Kavaraipettai","StopB","StopC"],
+  "priority": 1
+}
